@@ -284,3 +284,211 @@ nav #menu li a:hover {
 }
 
 /* projects */
+
+h6 {
+  text-align: center;
+}
+
+.vertical {
+  margin-top: 40px;
+  border-left: 1px solid #fff;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+}
+
+.project {
+  height: 500px;
+}
+
+.project1 {
+  background: url(https://res.cloudinary.com/bracket-factory/image/upload/v1539290061/bf-site/design.jpg)
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.project1::after {
+  content: "A timeless web.";
+  font-family: "Roboto Mono";
+  font-size: 36px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 8%;
+  left: -60%;
+  right: 0;
+  bottom: 0;
+}
+
+.project2 {
+  background: url(https://res.cloudinary.com/bracket-factory/image/upload/v1551656548/saga/cube.jpg)
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.project2::after {
+  content: "Cubes.";
+  font-family: "Roboto Mono";
+  font-size: 36px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 80%;
+  left: 90%;
+  right: 0;
+  bottom: 0;
+}
+
+.project3 {
+  background: url(https://res.cloudinary.com/bracket-factory/image/upload/v1532454234/saga/pexels-photo-210492.jpg)
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.project3::after {
+  content: "Never again.";
+  font-family: "Roboto Mono";
+  font-size: 36px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 80%;
+  left: -50%;
+  right: 0;
+  bottom: 0;
+}
+
+.project4 {
+  background: url(https://res.cloudinary.com/bracket-factory/image/upload/v1532452457/saga/wide.jpg)
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.project4::after {
+  content: "Departure.";
+  font-family: "Roboto Mono";
+  font-size: 36px;
+  position: relative; /* footer */
+  color: #fff;
+  display: block;
+  top: 10%;
+  left: 90%;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .project {
+    width: 90% !important;
+    margin: 14px auto;
+  }
+  .vertical {
+    display: none;
+  }
+  .project1::after,
+  .project2::after,
+  .project3::after,
+  .project4::after {
+    display: none;
+  }
+}
+
+/* footer */
+
+.collab {
+  text-align: right;
+}
+
+.collab p {
+  font-weight: lighter !important;
+  margin-bottom: 20px;
+}
+
+.hr {
+  background: rgba(255, 255, 255, 0.2);
+  height: 1px;
+}
+
+.info h4 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.info p {
+  color: grey;
+  font-weight: lighter;
+}
+
+.info li {
+  font-weight: lighter;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+#fb::before {
+  display: inline-block;
+  content: "";
+  border-radius: 100%;
+  height: 4px;
+  width: 4px;
+  margin-right: 6px;
+  background: #3b5998;
+}
+
+#ig::before {
+  display: inline-block;
+  content: "";
+  border-radius: 100%;
+  height: 4px;
+  width: 4px;
+  margin-right: 6px;
+  background: #fcaf45;
+}
+
+#tw::before {
+  display: inline-block;
+  content: "";
+  border-radius: 100%;
+  height: 4px;
+  width: 4px;
+  margin-right: 6px;
+  background: #55acee;
+}
+
+#yt::before {
+  display: inline-block;
+  content: "";
+  border-radius: 100%;
+  height: 4px;
+  width: 4px;
+  margin-right: 6px;
+  background: #c4302b;
+}
+
+#media,
+#address {
+  text-align: right;
+}
+
+#media ul {
+  list-style: none;
+}
+
+#media ul li {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .collab,
+  #personal,
+  #media,
+  #address {
+    text-align: center;
+  }
+
+  .info ul {
+    margin: 0 0 0 -22px;
+    padding: 0;
+  }
+}
