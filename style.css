@@ -600,3 +600,18 @@ textarea:focus {
     width: 98%;
   }
 }
+
+/* -----------project page----------- */
+
+.prev,
+.next p {
+  color: grey;
+}
+
+.prev p {
+  text-align: left;
+}
+
+.next p {
+  text-align: right;
+}
