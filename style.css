@@ -526,3 +526,77 @@ h6 {
   background: url(https://res.cloudinary.com/bracket-factory/image/upload/v1565639397/portfolio/abstract-architectural-design-architecture-2271683.jpg)
     no-repeat 50% 70%;
 }
+
+/* -----------contact form----------- */
+
+#contact-form {
+  margin: 5% 1.4%;
+}
+
+#contact-form ul {
+  list-style: none;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+#contact-form li {
+  padding: 10px;
+}
+
+#contact-form li:last-of-type {
+  border-bottom: none;
+}
+
+#contact-form label {
+  display: block;
+  font-size: 0.8em;
+  color: #999;
+  padding-left: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  resize: vertical;
+  background: transparent;
+  color: #fff;
+  font-weight: bolder;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+textarea:focus {
+  outline: none;
+  border: none;
+}
+
+.textarea {
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.send {
+  margin-left: 50px;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  background: transparent;
+  color: #dfdfdf;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.send:hover {
+  background: #dfdfdf;
+  color: #101010;
+}
+
+@media (max-width: 768px) {
+  #contact-form {
+    margin: 5% -8%;
+    width: 98%;
+  }
+}
