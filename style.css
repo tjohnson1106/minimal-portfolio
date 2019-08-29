@@ -82,7 +82,8 @@ nav #brand {
   display: block;
   margin-left: 82px;
   line-height: 80px;
-  font-weight: bold;
+  /* removed 082320192329*/
+  /* font-weight: bold; */
 }
 
 nav #brand a {
